@@ -1,0 +1,35 @@
+{
+    "ts-node": {
+        "files": true,
+        "transpileOnly": true,
+        "preferTsExts": true
+    },
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": [
+            "DOM",
+            "ES6",
+            "ESNext",
+            "ScriptHost",
+            "WebWorker"
+        ],
+        "jsx": "react",
+        "moduleDetection": "auto",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "importHelpers": false,
+        "importsNotUsedAsValues": "remove",
+        "downlevelIteration": true,
+        "noEmitHelpers": true,
+        "noEmitOnError": true,
+        "preserveConstEnums": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "resolveJsonModule": true
+    }
+}

@@ -1,0 +1,5 @@
+@use "../.." as *;
+
+.page {
+    @include page-configuration();
+}

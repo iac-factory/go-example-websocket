@@ -1,0 +1,5 @@
+@use "." as *;
+
+.default {
+  @include page-configuration();
+}

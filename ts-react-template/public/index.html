@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="EN">
+<head>
+    <!--
+    *-* DOM + Rule(s) *-*
+    --->
+
+    <meta charset="UTF-8"/>
+
+    <title>Cloud-Technology - Template</title>
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="assets/images/vusion.png" rel="shortcut icon"/>
+    <link href="manifest.json" rel="manifest">
+
+    <!--
+        *-* Language Inclusion *-*
+    -->
+
+    <link href="https://www.ibm.com/us-en" hreflang="x-default" rel="alternate">
+    <link href="https://www.ibm.com/us-en" hreflang="en-us" rel="alternate">
+
+    <!--
+        *-* Font-Face + Styling *-*
+    -->
+
+    <!--        <link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+
+    <script>
+        window.addEventListener("popstate", function (event) {
+            console.log('location changed!', event);
+        });
+    </script>
+</head>
+<body>
+<noscript>
+    JavaScript Browser Support Required
+</noscript>
+<io-application id="Application"></io-application>
+<script async defer src="application.js" type="module"></script>
+<!--<script async src="theme-loader.js" type="module" defer></script>-->
+</body>
+</html>
